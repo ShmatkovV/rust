@@ -8,9 +8,6 @@ def catalog(request):
     goods = Products.objects.all()
 
 
-
-
-
     context = {
         'title': 'Home - Каталог',
         'goods': goods,
